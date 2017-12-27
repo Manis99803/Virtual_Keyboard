@@ -1,0 +1,37 @@
+#text
+			{
+				width:450px;
+				height:100px;
+				position:absolute;
+	
+				bottom:150px;
+			}
+			#tab
+			{
+				width:90px;
+			}
+			table
+			{
+				position:absolute;
+				top:200px;
+				left:400px;
+				background-color:#333;
+				height:120px;
+			
+			}
+			#Enter
+			{
+				width:65px;
+			}
+			#Shift
+			{
+				width:75px;
+			}
+			#Space
+			{
+				width:365px;
+			}
+			#Back
+			{
+				width:100px;
+			}

@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="virtual.css">
+		<title>Virtual Keyboard</title>
+	</head>
+	<body>
+		<table border="1" rules="all">
+		<tr><td>
+		<div>
+			<textarea id="text">
+			</textarea>
+		</div>
+		<div>
+				<input type="button" id="key" value="1" onclick="add(this.value)">
+				<input type="button" id="Key" value="2" onclick="add(this.value)">
+				<input type="button" id="Key" value="3" onclick="add(this.value)">
+				<input type="button" id="Key" value="4" onclick="add(this.value)">
+				<input type="button" id="Key" value="5" onclick="add(this.value)">
+				<input type="button" id="Key" value="6" onclick="add(this.value)">
+				<input type="button" id="Key" value="7" onclick="add(this.value)">
+				<input type="button" id="Key" value="8" onclick="add(this.value)">
+				<input type="button" id="Key" value="9" onclick="add(this.value)">
+				<input type="button" id="Key" value="0" onclick="add(this.value)">
+				<input type="button" id="Key" value="-" onclick="add(this.value)">
+				<input type="button" id="Key" value="+"onclick="add(this.value)">
+				<input type="button" id="Back" value="Backspace" onclick="back()">
+		</div>		
+		<div>
+				<input type="button" id="tab" value="tab" onclick="tab()">
+				<input type="button" id="key" value="q" onclick="add(this.value)">
+				<input type="button" id="Key" value="w" onclick="add(this.value)">
+				<input type="button" id="Key" value="w" onclick="add(this.value)">
+				<input type="button" id="Key" value="r" onclick="add(this.value)">
+				<input type="button" id="Key" value="t" onclick="add(this.value)">
+				<input type="button" id="Key" value="y" onclick="add(this.value)">
+				<input type="button" id="Key" value="u" onclick="add(this.value)">
+				<input type="button" id="Key" value="i" onclick="add(this.value)">
+				<input type="button" id="Key" value="o" onclick="add(this.value)">
+				<input type="button" id="Key" value="p" onclick="add(this.value)">
+				<input type="button" id="Key" value="[" onclick="add(this.value)">
+				<input type="button" id="Key" value="]" onclick="add(this.value)">
+				<input type="button" id="Key" value="\" onclick="add(this.value)">
+		</div>		
+		<div>
+				<input type="button" id="key" value="Caps Lock" onclick="caps()">
+				<input type="button" id="key" value="a" onclick="add(this.value)">
+				<input type="button" id="Key" value="s" onclick="add(this.value)">
+				<input type="button" id="Key" value="d" onclick="add(this.value)">
+				<input type="button" id="Key" value="f" onclick="add(this.value)">
+				<input type="button" id="Key" value="g" onclick="add(this.value)">
+				<input type="button" id="Key" value="h" onclick="add(this.value)">
+				<input type="button" id="Key" value="j" onclick="add(this.value)">
+				<input type="button" id="Key" value="k" onclick="add(this.value)">
+				<input type="button" id="Key" value="l" onclick="add(this.value)">
+				<input type="button" id="Key" value=";" onclick="add(this.value)">
+				<input type="button" id="Key" value="'" onclick="add(this.value)">
+				<input type="button" id="Enter" value="Enter" onclick="enter()">
+		</div>
+		<div>
+				<input type="button" id="Shift" value="Shift" onclick="counter()">
+				<input type="button" id="key" value="z" onclick="add(this.value)">
+				<input type="button" id="Key" value="x" onclick="add(this.value)">
+				<input type="button" id="Key" value="c" onclick="add(this.value)">
+				<input type="button" id="Key" value="v" onclick="add(this.value)">
+				<input type="button" id="Key" value="b" onclick="add(this.value)">
+				<input type="button" id="Key" value="n" onclick="add(this.value)">
+				<input type="button" id="Key" value="m" onclick="add(this.value)">
+				<input type="button" id="Key" value="<" onclick="add(this.value)">
+				<input type="button" id="Key" value=">" onclick="add(this.value)">
+				<input type="button" id="Key" value="/" onclick="add(this.value)">
+				<input type="button" id="Shift" value="Shift" onclick="counter()">
+		</div>
+		<div>
+			<input type="button" value ="Control" onclick="ctrl()">
+			<input type="button" id="Space" onclick="space()">
+		</div>
+		</td>
+		</tr>
+		</table>
+	<script src="virtual.js">			
+	</script>
+	</body>
+</html>
